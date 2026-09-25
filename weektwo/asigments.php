@@ -85,6 +85,46 @@ echo "Reverse = " . $reverse;
 
 // Assignment six
 
+$a = 8;
+$b = 12;
+
+for ($i = 1; $i <= $a * $b; $i++) {
+
+    if ($i % $a == 0 && $i % $b == 0) {
+        echo "LCM = " . $i;
+        break;
+    }
+}
+
+// Assignment seven
+$a = 18;
+$b = 24;
+$hcf = 1;
+
+for ($i = 1; $i <= $a && $i <= $b; $i++) {
+
+    if ($a % $i == 0 && $b % $i == 0) {
+        $hcf = $i;
+    }
+}
+echo "HCF = " . $hcf;
+
+// Assignment eight
+echo "<table border='1'>";
+
+for ($i = 1; $i <= 12; $i++) {
+
+    echo "<tr>";
+
+    for ($j = 1; $j <= 12; $j++) {
+        echo "<td>" . ($i * $j) . "</td>";
+    }
+
+    echo "</tr>";
+}
+
+echo "</table>";
+
 
  ?>
 </body>
