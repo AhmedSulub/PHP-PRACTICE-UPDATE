@@ -6,86 +6,35 @@
     <title>Document</title>
 </head>
 <body>
-  <?php
+    
+ <?php
+//variable declaration
+$a = 25;
+$b = 10;
+$c = 40;
 
+// Find the greatest
+if ($a >= $b && $a >= $c) {
+    $greatest = $a;
+} elseif ($b >= $a && $b >= $c) {
+    $greatest = $b;
+} else {
+    $greatest = $c;
+}
 
-// for ($number = 1; $number <= 30; $number++) {
+// Find the smallest
+if ($a <= $b && $a <= $c) {
+    $smallest = $a;
+} elseif ($b <= $a && $b <= $c) {
+    $smallest = $b;
+} else {
+    $smallest = $c;
+}
 
-//     if ($number % 3 == 0 && $number % 5 == 0) {
-//         echo "$number is divisible by both 3 and 5<br>";
-//     }
-//     elseif ($number % 3 == 0) {
-//         echo "$number is divisible by 3<br>";
-//     }
-//     elseif ($number % 5 == 0) {
-//         echo "$number is divisible by 5<br>";
-//     }
-//     else {
-//         echo "$number is divisible by neither 3 nor 5<br>";
-//     }
-// }
-
-
- 
-
-//exaple index array
-
-// $collection = array();
-// //initialize the array with values
-
-// $collection [0] = 2;
-// $collection [1] = "ahmed sulub";
-// $collection [2] = 10.6;
-
-// print_r($collection);
-
-
-
-// display arry usin var_dump
-
-
-// echo "$collection[0] <br>";
-// echo "$collection[1] <br>";
-// var_dump($collection);
-
-
-// foreach($collection as $value){
-//     echo "$value <br>";
-// }   
-// echo "$collection[0] <br>";
-// var_dump($collection);
-
-
-//creat arry in one time
-
-// $numbers = array(3, "farah osmaan",20.4);
-// echo "<br>";
-// var_dump($numbers);
-
-
-
-// $info = array(
-//     "name" => "ahmed sulub",
-//     "age" => 20,
-//     "grade" => 10.5
-// );
-
-$info = array(
-     "id" => "101",
-        "name" => "ahmed sulub",
-        "age" => 20,
-        "grade" => 10.5 
-        
-)
-
+echo "Greatest number is: " . $greatest . "<br>";
+echo "Smallest number is: " . $smallest;
 
 
  ?>
-
-
-
-
-
-
 </body>
 </html>
