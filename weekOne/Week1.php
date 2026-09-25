@@ -114,41 +114,6 @@
     echo "its Not Color";
  }*/
 
-//while loop Example
-    // $i = 1;
-    // while($i <= 15){
-    //     echo "$i,  ";
-    //     $i++;
-    // }
-
-    //do While loop
-
-
-    // $Result =1;
-    // $n=5;
-    // do{
-    //     $Result *=$n;
-    //     echo "the word of n is: $n <br>";
-    //     $n--;
-
-    // }while ($n>0);
-    // echo $Result;
-
-    //break and continue
-
-    //Nested Loop
-
-    // for($i =1; $i<=3; $i++);
-    //     for($j =1; $j<5; $j++);
-    //   echo("$i * $j =" . "<br>");
-  
-
-//     for ($i = 1; $i <= 3; $i++) {
-
-//     for ($j = 1; $j < 5; $j++) {
-//         echo "$i * $j = " . ($i * $j) . "<br>";
-//     }
-// }
 
 
    
