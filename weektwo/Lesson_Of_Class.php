@@ -70,12 +70,10 @@
 
 //exaple index array
 
-// $collection = array();
-// //initialize the array with values
 
-// $collection [0] = 2;
-// $collection [1] = "ahmed sulub";
-// $collection [2] = 10.6;
+
+
+
 
 // print_r($collection);
 
@@ -89,18 +87,10 @@
 // var_dump($collection);
 
 
-// foreach($collection as $value){
-//     echo "$value <br>";
-// }   
-// echo "$collection[0] <br>";
-// var_dump($collection);
 
 
-//creat arry in one time
 
-// $numbers = array(3, "farah osmaan",20.4);
-// echo "<br>";
-// var_dump($numbers);
+
 
 
 
