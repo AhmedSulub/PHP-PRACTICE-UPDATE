@@ -2,6 +2,9 @@
 1. PHP Echo, Print, Single Quotes and Double Quotes
 Screenshot Name
 
+<img width="667" height="378" alt="PHP_ech_print" src="https://github.com/user-attachments/assets/574165eb-fc82-4620-8916-616718e1c7eb" />
+
+
 PHP Echo, Print, Single Quotes and Double Quotes
 
 Description
@@ -58,6 +61,8 @@ PHP statements normally end with a semicolon ;
 2. PHP Switch Statement
 Screenshot Name
 
+<img width="386" height="395" alt="SWITCH_STATEMENTS" src="https://github.com/user-attachments/assets/3af85c47-00fd-40f3-b575-4f159645001e" />
+
 PHP Switch Statement
 
 Description
@@ -88,6 +93,10 @@ switch($Month)
 
 //picture 3 Constant
 
+#Screenshoot Name
+<img width="698" height="357" alt="Constants_and String_PHP" src="https://github.com/user-attachments/assets/b7bf8646-aeed-4635-8437-fe4b6d019185" />
+
+
   3. #Strings and Constants in PHP
 
 Description:
@@ -103,6 +112,9 @@ define(): Used to create a constant in PHP.
 
 
 2. If Statements and If-Elseif Statements
+#Screenshot Name
+
+<img width="875" height="411" alt="IF_STATEMENTS_AND_IF_ELSE_IF_STATEMENTS" src="https://github.com/user-attachments/assets/00169d0e-9ef1-4dd9-af86-7f0f0eb4f6fe" />
 
 Description:
 This concept explains how to use conditional statements in PHP to make decisions based on conditions. The program checks whether a condition is true or false and executes the appropriate block of code.
